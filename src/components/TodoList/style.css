@@ -1,0 +1,54 @@
+.ui.grid > .row > .column {
+  padding: 0px !important;
+}
+
+.item-text-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px !important;
+}
+
+.right {
+  margin-right: 14px;
+}
+
+.full {
+  width: 100% !important;
+  padding: 30px !important;
+}
+
+.m-bottom {
+  margin-bottom: 20px;
+}
+
+.text-line-throw {
+  text-decoration: line-through;
+}
+
+.drop-down-menu {
+  border-radius: 50% !important;
+}
+
+.item-text-check-sec {
+  display: flex;
+  align-items: center;
+}
+
+.item-text-check-third {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px !important;
+}
+.m-right {
+  margin-right: 10px !important;
+}
+
+@media (max-width: 1024px) {
+  .title-ellipse {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
